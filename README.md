@@ -23,6 +23,23 @@ FSK currently is only supported on unix platforms,to install please refer to the
 
 * [FSK Wiki](https://github.com/RyanSowden/fsk/wiki)
 
+# Quickstart
+The wiki covers the full setup flow, but a minimal local run looks like:
+
+1. Install dependencies: `pip install -r requirements.txt`
+2. Configure environment variables in a `.env` file (see the wiki for required values).
+3. Run the bot: `python bot.py`
+
+If you hit database errors, double-check the wiki setup guide for required tables.
+
+# Testing
+Run the test suite locally with:
+
+`pytest`
+
+# Supported versions
+FSK is tested with Python 3.9+ on Unix-like platforms.
+
 # Contributing
 FSK is 100% open source and always looking at ways to become better, so if you have any ideas on ways to improve/add to the bot, create a pull request stating what you have changed/added.
 
